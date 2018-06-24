@@ -1,8 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Header, SearchBar, ButtonGroup  } from 'react-native-elements'
-import { Container, Header, Content, Button} from 'native-base';
-
+import { Header, SearchBar, ButtonGroup, Button  } from 'react-native-elements'
 
 export default class App extends React.Component {
   state = {
@@ -43,18 +41,28 @@ export default class App extends React.Component {
           buttons={['Home', 'Arrival','Departure']}
           containerStyle={{height: 30}} />
         </View>
-        <Container>
-        <Header />
-        <Content>
-          <Button light><Text> Light </Text></Button>
-          <Button primary><Text> Primary </Text></Button>
-          <Button success><Text> Success </Text></Button>
-          <Button info><Text> Info </Text></Button>
-          <Button warning><Text> Warning </Text></Button>
-          <Button danger><Text> Danger </Text></Button>
-          <Button dark><Text> Dark </Text></Button>
-        </Content>
-      </Container>
+        <View style={styles.contain}>
+          <Button
+          raised
+          icon={{name: 'cached'}}
+          title='jo man kare likho'
+          backgroundColor= '#52A0EC'/>
+          <Button
+          raised
+          icon={{name: 'cached'}}
+          title='Icon anviye daala '
+          backgroundColor= '#52A0EC' />
+          <Button
+          raised
+          icon={{name: 'cached'}}
+          title='Backend ka kuch '
+          backgroundColor= '#52A0EC' />
+          <Button
+          raised
+          icon={{name: 'cached'}}
+          title='dhundhne mein kho gaya tha'
+          backgroundColor= '#52A0EC'/>
+        </View>
       </View>
     );
   }
@@ -64,5 +72,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+  },
+  contain: {
+    flex: 1,
+    backgroundColor: '#fff',
+    justifyContent: 'space-evenly',
   },
 });
