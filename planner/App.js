@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Header, SearchBar, ButtonGroup, Button  } from 'react-native-elements'
+import { Header, SearchBar, ButtonGroup, Button, Tile  } from 'react-native-elements'
+import imager from './images/images';
+
 
 export default class App extends React.Component {
   state = {
@@ -33,6 +35,13 @@ export default class App extends React.Component {
 
         </View>
         <View>
+        <Button
+        small
+        title='Create Trip'
+        backgroundColor= '#EC6552'
+        buttonStyle={{borderRadius: 2, marginLeft: 0, marginRight: 0, marginBottom: 0, paddingTop: 5}}/>
+        </View>
+        <View>
         <ButtonGroup
           selectedBackgroundColor="pink"
           onPress={this.updateIndex}
@@ -41,26 +50,21 @@ export default class App extends React.Component {
           buttons={['Home', 'Arrival','Departure']}
           containerStyle={{height: 30}} />
         </View>
+        <View>
+        <Tile
+          imageSrc={{ require: './images/images.jpg' }}
+          title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolore exercitationem"
+          featured
+          caption="We'll keep you covered"
+        />
+        </View>
         <View style={styles.contain}>
+
+
           <Button
           raised
-          icon={{name: 'cached'}}
-          title='jo man kare likho'
-          backgroundColor= '#52A0EC'/>
-          <Button
-          raised
-          icon={{name: 'cached'}}
-          title='Icon anviye daala '
-          backgroundColor= '#52A0EC' />
-          <Button
-          raised
-          icon={{name: 'cached'}}
-          title='Backend ka kuch '
-          backgroundColor= '#52A0EC' />
-          <Button
-          raised
-          icon={{name: 'cached'}}
-          title='dhundhne mein kho gaya tha'
+          iconRight={{name: 'code'}}
+          title='Get A Pal'
           backgroundColor= '#52A0EC'/>
         </View>
       </View>
@@ -76,6 +80,5 @@ const styles = StyleSheet.create({
   contain: {
     flex: 1,
     backgroundColor: '#fff',
-    justifyContent: 'space-evenly',
   },
 });
