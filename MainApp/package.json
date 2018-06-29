@@ -1,5 +1,5 @@
 {
-  "name": "top",
+  "name": "MainApp",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -20,9 +20,10 @@
   },
   "dependencies": {
     "expo": "^27.0.1",
+    "firebase": "^5.1.0",
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "react-native-firebase": "^4.2.0",
-    "react-navigation": "^2.5.2"
+    "react-navigation": "^2.5.5"
   }
 }

@@ -1,19 +1,23 @@
 import React from 'react';
 import { Button, View, Text } from 'react-native';
-import { createStackNavigator } from 'react-navigation';
-import home from './tabs/home';
+import { createStackNavigator } from 'react-navigation'; // Version can be specified in package.json
+
+import HomeScreen from './tabs/HomeScreen';
+import DetailsScreen from './tabs/DetailsScreen';
+
+const RootStack = createStackNavigator(
+  {
+    Home: HomeScreen,
+    Details: DetailsScreen,
+  },
+  {
+    initialRouteName: 'Home',
+  }
+);
 
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
-    return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
-        <Button
-          title="Go to Details"
-          // onPress={() => this.props.navigation.navigate('home')}
-        />
-      </View>
-    );
+    return <RootStack />;
   }
 }
