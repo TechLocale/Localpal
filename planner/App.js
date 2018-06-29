@@ -1,7 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Header, SearchBar, ButtonGroup, Button, Tile  } from 'react-native-elements'
-import imager from './images/images';
+import { StyleSheet, Text, View, Alert } from 'react-native';
+import { Header, SearchBar, ButtonGroup, Button, Tile  } from 'react-native-elements';
+
 
 
 export default class App extends React.Component {
@@ -9,9 +9,14 @@ export default class App extends React.Component {
     index: 0
   }
 
-  updateIndex = (index) => {
-    this.setState({index})
+  onSelect(){
+    updateIndex = (index) => {
+      this.setState({index})
+    }
+    const {index} = this.setState;
+    Alert.alert('Index', `${index}`);
   }
+
 
 
   render() {
@@ -44,7 +49,7 @@ export default class App extends React.Component {
         <View>
         <ButtonGroup
           selectedBackgroundColor="pink"
-          onPress={this.updateIndex}
+          onPress={this.onSelect.bind(this)}
           selectedIndex={this.state.index}
           containerBorderRadius={25}
           buttons={['Home', 'Arrival','Departure']}

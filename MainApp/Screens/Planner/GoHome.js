@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, StatusBar } from 'react-native';
 
-class HomeScreen extends React.Component{
+
+class GoHome extends React.Component{
   // static navigationOptions = {
   //      header: null
   //  }
   render(){
     return(
       <View style={{marginTop: StatusBar.currentHeight}}>
-        <Text>SignUp Screen</Text>
+        <Text>GoHome</Text>
 
         <Button
         onPress={() =>
         this.props.navigation.navigate('HomeScreen')}
         title="HOME" />
-        <Button
-        onPress={() =>
-        this.props.navigation.navigate('PlannerScreen')}
-        title="PLANNER" />
       </View>
     );
   }
 }
 
-export default HomeScreen;
+export default GoHome;

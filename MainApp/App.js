@@ -7,6 +7,10 @@ import HomeScreen from './Screens/HomeScreen';
 import LoginScreen from './Screens/LoginScreen';
 import SignUpScreen from './Screens/SignUpScreen';
 import AccountScreen from './Screens/AccountScreen';
+import PlannerScreen from './Screens/PlannerScreen';
+  import Home from './Screens/Planner/Home';
+  import InTrip from './Screens/Planner/InTrip';
+  import GoHome from './Screens/Planner/GoHome';
 
 export default class App extends React.Component {
 
@@ -18,10 +22,15 @@ export default class App extends React.Component {
 }
 
 const AppNavigator = createStackNavigator({
+  PlannerScreen: { screen: PlannerScreen},
+    Home: { screen: Home},
+    InTrip: { screen: InTrip},
+    GoHome: { screen: GoHome},
   LoginScreen: { screen: LoginScreen},
   HomeScreen: { screen: HomeScreen},
   SignUpScreen: { screen: SignUpScreen},
   AccountScreen: { screen: AccountScreen},
+
 },
 {
     headerMode: 'none',

@@ -38,6 +38,10 @@ class LoginScreen extends React.Component{
      this.props.navigation.navigate('SignUpScreen')
    }
 
+   onJump() {
+     this.props.navigation.navigate('PlannerScreen')
+   }
+
    render() {
      return (
        <View style={styles.container}>
@@ -64,6 +68,11 @@ class LoginScreen extends React.Component{
            title={'New User? SignUp'}
            style={styles.input}
            onPress={this.onSignUp.bind(this)}
+         />
+         <Button
+           title={'Planner'}
+           style={styles.input}
+           onPress={this.onJump.bind(this)}
          />
        </View>
      );
