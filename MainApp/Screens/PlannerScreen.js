@@ -30,6 +30,8 @@ class PlannerScreen extends React.Component{
         </View>
         <View>
         <Button
+        onPress={() =>
+        this.props.navigation.navigate('Create')}
         title='Create Trip'
         />
         </View>

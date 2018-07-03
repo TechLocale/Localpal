@@ -1,22 +1,40 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { createStackNavigator } from 'react-navigation';
-import HomeScreen from './Screens/HomeScreen';
-import LoginScreen from './Screens/LoginScreen';
 
+import { StackNavigator } from 'react-navigation'
+import WelcomeScreen from './screens/WelcomeScreen'
+import LoginScreen from './screens/LoginScreen'
+import SignUpScreen from './screens/SignUpScreen'
+import DrawerNavigator from './screens/DrawerNavigator'
+import ScreenOne from './screens/TabNavigator/ScreenOne'
+import ScreenTwo from './screens/TabNavigator/ScreenTwo'
 export default class App extends React.Component {
-
   render() {
     return (
-      <AppNavigator />
+      <AppStackNavigator />
     );
   }
 }
 
-const AppNavigator = createStackNavigator({
-  LoginScreen: { screen: LoginScreen},
-  HomeScreen: { screen: HomeScreen},
-})
+const AppStackNavigator = new StackNavigator({
+  WelcomeScreen: { screen: WelcomeScreen },
+  LoginScreen: { screen: LoginScreen },
+  SignUpScreen: { screen: SignUpScreen },
+  ScreenOne: { screen: ScreenOne},
+  ScreenTwo: { screen: ScreenTwo},
+
+  DrawerNavigator: {
+    screen: DrawerNavigator,
+    navigationOptions: {
+      header: 'none'
+    }
+  }
+}, {
+    navigationOptions: {
+      gesturesEnabled: false
+    }
+  })
+
 
 const styles = StyleSheet.create({
   container: {
