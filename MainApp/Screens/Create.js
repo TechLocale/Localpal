@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, StatusBar, Alert, TextInput, KeyboardAvoidingView} from 'react-native';
+import DatePicker from 'react-native-datepicker';
 
 import firebase from '../firebase';
 
@@ -11,14 +12,14 @@ class Create extends React.Component{
        dest: '',
        email: '',
        contact: '',
-       start: '',
-       end: '',
+       start: "2016-05-15",
+       end: "2016-05-15",
        loading: false,
 
      };
    }
 
-   onSignUp() {
+   onCreate() {
      this.setState({ error: '', loading: true });
      var key =  firebase.database().ref('/TripData').push().key
      const { dest, email, contact, start, end } = this.state;
@@ -60,28 +61,53 @@ class Create extends React.Component{
         <TextInput
           value={this.state.contact}
           onChangeText={(contact) => this.setState({ contact })}
-          placeholder={'Renter your mobile no.'}
+          placeholder={'Your mobile no.'}
+          keyboardType={'numeric'}
+          style={styles.input}
+        />
+        <View style={styles.dinput}>
+          <DatePicker
+            style={styles.date}
+            date={this.state.start}
+            mode="date"
+            placeholder="When will you reach ?"
+            format="YYYY-MM-DD"
+            minDate="2016-05-01"
+            maxDate="2016-06-01"
+            confirmBtnText="Confirm"
+            cancelBtnText="Cancel"
+            // customStyles={{
+            //   dateIcon: {
+            //     position: 'absolute',
+            //     left: 0,
+            //     top: 4,
+            //     marginLeft: 0
+            //   },
+            //   dateInput: {
+            //     marginLeft: 36
+            //   }
+            // }}
+            onDateChange={(start) => {this.setState({start: start})}}
+          />
+          <DatePicker
+            style={styles.date}
+            date={this.state.end}
+            mode="date"
+            placeholder="When will you leave ?"
+            format="YYYY-MM-DD"
+            minDate="2016-05-01"
+            maxDate="2016-06-01"
+            confirmBtnText="Confirm"
+            cancelBtnText="Cancel"
+            onDateChange={(end) => {this.setState({end: end})}}
+          />
+        </View>
 
-          style={styles.input}
-        />
-        <TextInput
-          value={this.state.start}
-          onChangeText={(start) => this.setState({ start})}
-          placeholder={'when will you reach here'}
-          style={styles.input}
-        />
-        <TextInput
-          value={this.state.mob}
-          onChangeText={(end) => this.setState({ end })}
-          placeholder={'when will you reach here'}
-          
-          style={styles.input}
-        />
 
         <Button
           title={'SignUp'}
           style={styles.input}
-          onPress={this.onSignUp.bind(this)}
+          onPress={this.onCreate.bind(this)}
           />
       </KeyboardAvoidingView>
     );
@@ -107,5 +133,13 @@ const styles = StyleSheet.create({
    borderWidth: 1,
    borderColor: 'black',
    marginBottom: 10,
+ },
+ date: {
+   width: 150,
+   borderRadius: 20,
+   padding: 10,
+ },
+ dinput:{
+   flexDirection: 'row',
  },
 });

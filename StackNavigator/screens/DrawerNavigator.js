@@ -5,10 +5,10 @@ import {
     StyleSheet
 } from "react-native";
 
-import HomeScreen from './HomeScreen'
-import { DrawerNavigator, StackNavigator } from 'react-navigation'
+import HomeScreen from './HomeScreen';
+import { DrawerNavigator, StackNavigator } from 'react-navigation';
 
-import HomeScreenTabNavigator from './HomeScreenTabNavigator'
+import HomeScreenTabNavigator from './HomeScreenTabNavigator';
 
 const InnerStackNavigator = new StackNavigator({
     TabNavigator: {

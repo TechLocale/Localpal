@@ -1,13 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { StackNavigator } from 'react-navigation'
-import WelcomeScreen from './screens/WelcomeScreen'
-import LoginScreen from './screens/LoginScreen'
-import SignUpScreen from './screens/SignUpScreen'
-import DrawerNavigator from './screens/DrawerNavigator'
-import ScreenOne from './screens/TabNavigator/ScreenOne'
-import ScreenTwo from './screens/TabNavigator/ScreenTwo'
+import { StackNavigator } from 'react-navigation';
+import WelcomeScreen from './screens/WelcomeScreen';
+import LoginScreen from './screens/LoginScreen';
+import SignUpScreen from './screens/SignUpScreen';
+import DrawerNavigator from '../screens/DrawerNavigator';
+import ScreenOne from '../screens/TabNavigator/ScreenOne';
+import ScreenTwo from '../screens/TabNavigator/ScreenTwo';
+
 export default class App extends React.Component {
   render() {
     return (

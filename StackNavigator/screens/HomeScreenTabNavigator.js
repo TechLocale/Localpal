@@ -5,11 +5,11 @@ import {
     StyleSheet
 } from "react-native";
 
-import { TabNavigator } from 'react-navigation'
-import Ionicons from 'react-native-vector-icons/Ionicons'
+import { TabNavigator } from 'react-navigation';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import ScreenOne from './screens/TabNavigator/ScreenOne'
-import ScreenTwo from './screens/TabNavigator/ScreenTwo'
+import ScreenOne from './screens/TabNavigator/ScreenOne';
+import ScreenTwo from './screens/TabNavigator/ScreenTwo';
 
 
 export default class AppTabNavigator extends Component {
