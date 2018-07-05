@@ -19,7 +19,7 @@ class LoginScreen extends React.Component{
      firebase.auth().signInWithEmailAndPassword(email, password)
          .then(() => {
              this.setState({ error: '', loading: false });
-
+             this.props.navigation.navigate('AccountScreen')
 
          },(error) =>{
            Alert.alert(error.message);
@@ -31,7 +31,7 @@ class LoginScreen extends React.Component{
          })
 
      Alert.alert('Credentials', `${email} + ${password}`);
-     this.props.navigation.navigate('AccountScreen')
+
    }
 
    onSignUp() {

@@ -21,7 +21,9 @@ export default class App extends React.Component {
   }
 }
 
-const AppNavigator = createStackNavigator({  LoginScreen: { screen: LoginScreen},
+const AppNavigator = createStackNavigator({
+
+  LoginScreen: { screen: LoginScreen},
   HomeScreen: { screen: HomeScreen},
   SignUpScreen: { screen: SignUpScreen},
   AccountScreen: { screen: AccountScreen},
