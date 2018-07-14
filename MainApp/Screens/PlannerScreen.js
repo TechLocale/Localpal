@@ -70,7 +70,7 @@ render(){
         <View style={styles.Bottom}>
             <TouchableOpacity
             style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+            onPress={()=>this.props.navigation.navigate('NewsFeed')}>
              <View>
                  <Icon  size={30} name='feed' />
 

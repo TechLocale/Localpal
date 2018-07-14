@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , Touchabl
 import { SearchBar} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default class NewsFeed extends React.Component {
+export default class BoringScreen extends React.Component {
   constructor() {
     super()
       this.state = {
@@ -106,7 +106,7 @@ export default class NewsFeed extends React.Component {
       <View style={styles.Bottom}>
           <TouchableOpacity
           style={styles.tab}
-          onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+          onPress={()=>this.props.navigation.navigate('NewsFeed')}>
            <View>
                <Icon  size={30} name='feed' />
 

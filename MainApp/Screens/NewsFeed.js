@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , TouchableOpacity, ToastAndroid, StatusBar} from 'react-native';
+import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , Button, TouchableOpacity, ToastAndroid, StatusBar} from 'react-native';
+import { SearchBar, Card, ListItem} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class NewsFeed extends React.Component {
@@ -10,12 +11,33 @@ export default class NewsFeed extends React.Component {
         isLoading:true
       }
   }
-  renderItem = ({item}) =>{
+  renderItem = ({item, i}) =>{
     return (
-      <TouchableOpacity style={{ flex:1, flexDirection: 'row', marginBottom:3}}
-      onPress={() => ToastAndroid.show(item.book_title , ToastAndroid.SHORT)}>
-         <Image style={{ width:80, height:80 , margin:5}}
+      <View style={{ flex:1, flexDirection: 'row', marginBottom:3, marginTop:0}}>
+        <Card>
+          <ListItem
+          key={i}
+          roundAvatar
+          title={item.author}
+          avatar={{uri:item.image}}
+        />
+          <Image style={{ width:'100%', height:400 , margin:5}}
               source={{uri: item.image}}/>
+          <Text style={{marginBottom: 10}}>
+            The idea with React Native Elements is more about component structure than actual design.
+          </Text>
+          <View style={{flexDirection: 'row'}}>
+              <TouchableOpacity style={{padding:5}}>
+                <Icon size={30} name='thumbs-up'/>
+              </TouchableOpacity>
+              <TouchableOpacity style={{padding:5}}>
+                <Icon size={30} name='comment'/>
+              </TouchableOpacity>
+          </View>
+          <Button
+            title='VIEW NOW'/>
+        </Card>
+
          <View style={{ flex:1, justifyContent:'center'}}>
             <Text style={{ fontSize: 18 , color:'green' , marginLeft: 5}}>
               {item.book_title}
@@ -32,7 +54,7 @@ export default class NewsFeed extends React.Component {
             </Text>
             </View>
          </View>
-    </TouchableOpacity>
+    </View>
     )
   }
   renderSeparater = () => {
@@ -62,9 +84,20 @@ export default class NewsFeed extends React.Component {
       ?
       <View style={{ flex:1, justifyContent:'center' , alignItems:'center'}}>
         <ActivityIndicator size="large" color="#330066" animating />
+
       </View>
       :
       <View style={styles.container}>
+      <View>
+      <SearchBar
+       lightTheme
+        clearIcon={{ color: 'white' }}
+        searchIcon={false} // You could have passed `null` too
+        // onChangeText={someMethod}
+        // onClear={someMethod}
+        placeholder='Type Here...' />
+
+      </View>
       <FlatList
         data={this.state.dataSource}
         renderItem={this.renderItem}
@@ -72,27 +105,10 @@ export default class NewsFeed extends React.Component {
         ItemSeparateComponent={this.renderSeparater}   //Adds Dividers to the Flatlist
       />
       <View style={{flexDirection:'column',justifyContent:'space-evenly'}}>
-      <View >
-        <TouchableOpacity style={{
-       borderWidth:1,
-       borderColor:'#0000',
-       alignItems:'center',
-       justifyContent:'center',
-       width:70,
-       position: 'absolute',
-       bottom: 60,
-       right: 10,
-       height:70,
-       backgroundColor:'#F9725F',
-       borderRadius:100,
-     }}>
-          <Icon name="plus"  size={30} color="#ffff" />
-        </TouchableOpacity>
-      </View>
       <View style={styles.Bottom}>
           <TouchableOpacity
-          style={styles.tab}
-          onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+          style={styles.tabA}
+          onPress={()=>this.props.navigation.navigate('NewsFeed')}>
            <View>
                <Icon  size={30} name='feed' />
 
@@ -107,7 +123,7 @@ export default class NewsFeed extends React.Component {
             </View>
             </TouchableOpacity>
           <TouchableOpacity
-          style={styles.tabA}
+          style={styles.tab}
          onPress={()=>this.props.navigation.navigate('BoringScreen')}>
              <View>
                  <Icon size={30} center name='check' />
@@ -139,7 +155,7 @@ export default class NewsFeed extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight,
+    marginTop: 0,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'stretch',

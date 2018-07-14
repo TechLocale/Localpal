@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import HomeScreen from './Screens/HomeScreen';
+import NewsFeed from './Screens/NewsFeed';
 import LoginScreen from './Screens/LoginScreen';
 import SignUpScreen from './Screens/SignUpScreen';
 import AccountScreen from './Screens/AccountScreen';
@@ -28,6 +28,12 @@ export default class App extends React.Component {
 
 const AppNavigator = new createStackNavigator({
 
+
+  NewsFeed: { screen: NewsFeed},
+  LoginScreen: { screen: LoginScreen},
+  SignUpScreen: { screen: SignUpScreen},
+  AccountScreen: { screen: AccountScreen},
+
   PlannerScreen: { screen: PlannerScreen},
   InTrip: { screen: InTrip},
   GoHome: { screen: GoHome},
@@ -35,14 +41,8 @@ const AppNavigator = new createStackNavigator({
   GetPal: { screen:GetPal},
   Home: {screen: Home},
 
-  HomeScreen: { screen: HomeScreen},
-  LoginScreen: { screen: LoginScreen},
-  SignUpScreen: { screen: SignUpScreen},
-  AccountScreen: { screen: AccountScreen},
-
   BoringScreen: { screen: BoringScreen},
-    CreateEvent: { screen: CreateEvent},
-
+  CreateEvent: { screen: CreateEvent},
 },
 {
     headerMode: 'screen',
