@@ -59,7 +59,7 @@ render(){
             </TouchableOpacity>
         </View>
         <View style={styles.contain}>
-        <Image style={{ width:'100%', height:'60%' , borderRadius:10,,}}
+        <Image style={{ width:'100%', height:'60%' , borderRadius:10,}}
              source={require('../home.jpg')}/>
           <Button
           title='Get A Local'
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ecf0f1',
   },
   contain: {
-    flex: 6,
+    flex: 1,
     backgroundColor: '#fff',
 
   },
@@ -142,12 +142,14 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   Bottom: {
-    flex:1,
-    marginBottom: 0,
-    flexDirection: 'row',
-    alignItems: 'stretch',
-    justifyContent: 'space-evenly',
-    width:'100%',
+    backgroundColor:'#ecf0f1',
+  marginBottom: 0,
+  flexDirection: 'row',
+  alignItems: 'stretch',
+  justifyContent: 'space-evenly',
+  position: 'absolute',
+  bottom:0,
+  width: '100%',
   },
   tab: {
     padding: 5,
