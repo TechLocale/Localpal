@@ -1,28 +1,36 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Button, StatusBar, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Button, StatusBar, ListView, TouchableOpacity } from 'react-native';
 import { Icon } from 'react-native-elements';
 
-class HomeScreen extends React.Component{
-  // static navigationOptions = {
-  //      header: null
-  //  }
+
+var data = ["Event 1", "Event 2"]
+
+class BoringScreen extends React.Component{
+  constructor() {
+    super();
+    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+    this.state = {
+      listViewData: data,
+    };
+  }
   render(){
     return(
       <View style={styles.container}>
         <View>
-        <Text>HomeScreen</Text>
+        <ListView
+          dataSource={this.ds.cloneWithRows(this.state.listViewData)}
+          renderRow={(data) => <Text>{data}</Text>}
+        />
+        </View>
+        <View>
+        <Button
+        onPress={() =>
+        this.props.navigation.navigate('CreateEvent')}
+        title="Create Event" />
         <Button
         onPress={() =>
         this.props.navigation.navigate('HomeScreen')}
         title="HOME" />
-        <Button
-        onPress={() =>
-        this.props.navigation.navigate('PlannerScreen')}
-        title="PLANNER" />
-        <Button
-        onPress={() =>
-        this.props.navigation.navigate('BoringScreen')}
-        title="BORING" />
         </View>
         <View style={styles.Bottom}>
         <TouchableOpacity
@@ -42,7 +50,7 @@ class HomeScreen extends React.Component{
               </View>
           </TouchableOpacity>
           <TouchableOpacity
-          style={styles.tab}
+          style={styles.tabA}
            onPress={()=>this.props.navigation.navigate('BoringScreen')}>
                <View>
                    <Icon name='home' />
@@ -58,21 +66,20 @@ class HomeScreen extends React.Component{
                 </View>
             </TouchableOpacity>
             <TouchableOpacity
-            style={{backgroundColor:'#ffff', padding: 5}}
+            style={styles.tab}
              onPress={()=>this.props.navigation.navigate('AccountScreen')}>
                  <View>
                      <Icon name='home' />
                      <Text>ACCOUNT</Text>
                  </View>
              </TouchableOpacity>
-            </View>
+        </View>
       </View>
     );
   }
 }
 
-export default HomeScreen;
-
+export default BoringScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -82,15 +89,18 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
   },
   Bottom: {
-    marginBottom: 0,
-    flexDirection: 'row',
-    alignItems: 'stretch',
-    justifyContent: 'space-evenly',
-    position: 'absolute',
-    bottom:0,
-
-  },
-  tab: {
-    padding: 5,
-  },
+  marginBottom: 0,
+  flexDirection: 'row',
+  alignItems: 'stretch',
+  justifyContent: 'space-evenly',
+  position: 'absolute',
+  bottom:0,
+},
+tab: {
+  padding: 5,
+},
+tabA: {
+  backgroundColor:'#ffff',
+  padding: 5
+},
 });

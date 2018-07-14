@@ -3,16 +3,15 @@
     "sdkVersion": "27.0.0",
     "name": "MainApp",
     "slug": "mainapp",
-    "version": "0.1.0",
-    "isDetached": true,
-    "detach": {
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.3-sdk27.0.0-408c8d77-8d1f-4784-b7b4-93826250663a.tar.gz"
-    },
+    "version": "0.1.1",
     "scheme": "exp7b94bd5e4a0348abaad872a4d7b03b7f",
     "android": {
       "package": "com.lp.MainApp",
       "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
       "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
-    }
+    },
+    "ios": {
+      "bundleIdentifier": "com.lp.main"
+    },
   }
 }

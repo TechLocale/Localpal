@@ -1,0 +1,53 @@
+headerLeft: (
+    <TouchableOpacity
+      onPress={() => this.props.navigation.navigate('HomeScreen')}
+      style={{padding:10,}}
+      >
+      <Icon size={30} name='home'/>
+    </TouchableOpacity>
+  ),
+
+
+
+  <View style={styles.Bottom}>
+  <TouchableOpacity
+  style={styles.tab}
+   onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+       <View>
+           <Icon name='home' />
+           <Text>FEED</Text>
+       </View>
+   </TouchableOpacity>
+   <TouchableOpacity
+   style={styles.tabA}
+    onPress={()=>this.props.navigation.navigate('PlannerScreen')}>
+        <View>
+            <Icon name='event' />
+            <Text>PLANNER</Text>
+        </View>
+    </TouchableOpacity>
+    <TouchableOpacity
+    style={styles.tab}
+     onPress={()=>this.props.navigation.navigate('BoringScreen')}>
+         <View>
+             <Icon name='home' />
+             <Text>BORING</Text>
+         </View>
+     </TouchableOpacity>
+     <TouchableOpacity
+     style={styles.tab}
+      onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+          <View>
+              <Icon name='event' />
+              <Text>MESSAGE</Text>
+          </View>
+      </TouchableOpacity>
+      <TouchableOpacity
+      style={styles.tab}
+       onPress={()=>this.props.navigation.navigate('AccountScreen')}>
+           <View>
+               <Icon name='home' />
+               <Text>ACCOUNT</Text>
+           </View>
+       </TouchableOpacity>
+  </View>

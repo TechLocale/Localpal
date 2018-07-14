@@ -1,16 +1,21 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import HomeScreen from './Screens/HomeScreen';
 import LoginScreen from './Screens/LoginScreen';
 import SignUpScreen from './Screens/SignUpScreen';
 import AccountScreen from './Screens/AccountScreen';
+import BoringScreen from './Screens/BoringScreen';
+  import CreateEvent from './Screens/CreateEvent';
 import PlannerScreen from './Screens/PlannerScreen';
   import Home from './Screens/Planner/Home';
   import InTrip from './Screens/Planner/InTrip';
   import GoHome from './Screens/Planner/GoHome';
   import Create from './Screens/Create';
+  import GetPal from './Screens/GetPal';
+
 
 export default class App extends React.Component {
 
@@ -21,22 +26,32 @@ export default class App extends React.Component {
   }
 }
 
-const AppNavigator = createStackNavigator({
+const AppNavigator = new createStackNavigator({
 
-  LoginScreen: { screen: LoginScreen},
+  PlannerScreen: { screen: PlannerScreen},
+  InTrip: { screen: InTrip},
+  GoHome: { screen: GoHome},
+  Create: { screen: Create},
+  GetPal: { screen:GetPal},
+  Home: {screen: Home},
+
   HomeScreen: { screen: HomeScreen},
+  LoginScreen: { screen: LoginScreen},
   SignUpScreen: { screen: SignUpScreen},
   AccountScreen: { screen: AccountScreen},
-  PlannerScreen: { screen: PlannerScreen},
-    Home: { screen: Home},
-    InTrip: { screen: InTrip},
-    GoHome: { screen: GoHome},
-    Create: { screen: Create},
+
+  BoringScreen: { screen: BoringScreen},
+    CreateEvent: { screen: CreateEvent},
 
 },
 {
-    headerMode: 'none',
+    headerMode: 'screen',
     navigationOptions: {
-        headerVisible: false,
+        headerVisible: true,
+        headerStyle: { backgroundColor: '#33ADFF' },
+        headerTitleStyle: { color: 'white' },
+        headerTintColor: '#fff',
+
+
     }
 })

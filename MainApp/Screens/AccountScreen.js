@@ -23,32 +23,9 @@ class AccountScreen extends React.Component{
 
    this.state = { id: '' };
  }
- onChooseImagePress = async () => {
-   const { id } = this.state;
-   //let result = await ImagePicker.launchCameraAsync();
-   let result = await ImagePicker.launchImageLibraryAsync();
 
-   if (!result.cancelled) {
-     this.uploadImage(result.uri, id)
-       .then(() => {
-         Alert.alert('Success');
-       })
-       .catch(error => {
-         Alert.alert(error);
-       });
-   }
- };
 
- uploadImage = async (uri, imageName) => {
-   const response = await fetch(uri);
-   const blob = await response.blob();
 
-   var ref = firebase
-     .storage()
-     .ref()
-     .child('images/' + imageName);
-   return ref.put(blob);
- };
 
  _onLongPressButton() {
    Alert.alert('You long-pressed the button!');
@@ -106,11 +83,47 @@ class AccountScreen extends React.Component{
             <Text style={{ fontSize: 12, color: 'grey' }}>Followers </Text>
           </View>
         </View>
-        <View>
-          <Button
-          onPress={() =>
-          this.props.navigation.navigate('HomeScreen')}
-          title="HOME" />
+        <View style={styles.Bottom}>
+          <TouchableOpacity
+          style={styles.tab}
+          onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+               <View>
+                   <Icon name='home' />
+                   <Text>FEED</Text>
+               </View>
+           </TouchableOpacity>
+           <TouchableOpacity
+           style={styles.tab}
+           onPress={()=>this.props.navigation.navigate('PlannerScreen')}>
+                <View>
+                    <Icon name='event' />
+                    <Text>PLANNER</Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+            style={styles.tab}
+             onPress={()=>this.props.navigation.navigate('BoringScreen')}>
+                 <View>
+                     <Icon name='home' />
+                     <Text>BORING</Text>
+                 </View>
+             </TouchableOpacity>
+             <TouchableOpacity
+             style={styles.tab}
+              onPress={()=>this.props.navigation.navigate('HomeScreen')}>
+                  <View>
+                      <Icon name='event' />
+                      <Text>MESSAGE</Text>
+                  </View>
+              </TouchableOpacity>
+              <TouchableOpacity
+              style={styles.tabA}
+               onPress={()=>this.props.navigation.navigate('AccountScreen')}>
+                 <View>
+                     <Icon name='home' />
+                     <Text>ACCOUNT</Text>
+                 </View>
+             </TouchableOpacity>
         </View>
       </View>
 
@@ -137,5 +150,18 @@ const styles = StyleSheet.create({
 
     flexDirection: 'row',
     justifyContent: 'center',
+  },
+  Bottom: {
+    marginBottom: 0,
+    flexDirection: 'row',
+    alignItems: 'stretch',
+    justifyContent: 'space-evenly',
+  },
+  tab: {
+    padding: 5,
+  },
+  tabA: {
+    backgroundColor:'#ffff',
+    padding: 5
   },
 });

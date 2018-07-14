@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , TouchableOpacity, ToastAndroid, StatusBar} from 'react-native';
-import { SearchBar} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class NewsFeed extends React.Component {
@@ -13,7 +12,7 @@ export default class NewsFeed extends React.Component {
   }
   renderItem = ({item}) =>{
     return (
-      <TouchableOpacity style={{ flex:1, flexDirection: 'row', marginBottom:3, marginTop:0}}
+      <TouchableOpacity style={{ flex:1, flexDirection: 'row', marginBottom:3}}
       onPress={() => ToastAndroid.show(item.book_title , ToastAndroid.SHORT)}>
          <Image style={{ width:80, height:80 , margin:5}}
               source={{uri: item.image}}/>
@@ -63,20 +62,9 @@ export default class NewsFeed extends React.Component {
       ?
       <View style={{ flex:1, justifyContent:'center' , alignItems:'center'}}>
         <ActivityIndicator size="large" color="#330066" animating />
-
       </View>
       :
       <View style={styles.container}>
-      <View>
-      <SearchBar
-       lightTheme
-        clearIcon={{ color: 'white' }}
-        searchIcon={false} // You could have passed `null` too
-        // onChangeText={someMethod}
-        // onClear={someMethod}
-        placeholder='Type Here...' />
-
-      </View>
       <FlatList
         data={this.state.dataSource}
         renderItem={this.renderItem}
@@ -85,21 +73,19 @@ export default class NewsFeed extends React.Component {
       />
       <View style={{flexDirection:'column',justifyContent:'space-evenly'}}>
       <View >
-        <TouchableOpacity
-            style={{
-           borderWidth:1,
-           borderColor:'#0000',
-           alignItems:'center',
-           justifyContent:'center',
-           width:70,
-           position: 'absolute',
-           bottom: 60,
-           right: 10,
-           height:70,
-           backgroundColor:'#F9725F',
-           borderRadius:100,
-        }}
-        onPress={()=>this.props.navigation.navigate('CreateEvent')}>
+        <TouchableOpacity style={{
+       borderWidth:1,
+       borderColor:'#0000',
+       alignItems:'center',
+       justifyContent:'center',
+       width:70,
+       position: 'absolute',
+       bottom: 60,
+       right: 10,
+       height:70,
+       backgroundColor:'#F9725F',
+       borderRadius:100,
+     }}>
           <Icon name="plus"  size={30} color="#ffff" />
         </TouchableOpacity>
       </View>
@@ -153,7 +139,7 @@ export default class NewsFeed extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 0,
+    marginTop: StatusBar.currentHeight,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'stretch',

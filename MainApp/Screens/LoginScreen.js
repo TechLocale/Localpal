@@ -48,7 +48,7 @@ class LoginScreen extends React.Component{
          <TextInput
            value={this.state.email}
            onChangeText={ (email) => this.setState({ email })}
-           placeholder={'email'}
+           placeholder={'Email'}
            style={styles.input}
          />
          <TextInput

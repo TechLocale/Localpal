@@ -5,18 +5,18 @@ import { CheckBox } from 'react-native-elements';
 
 import firebase from '../firebase';
 
-class Create extends React.Component{
+class CreateEvent extends React.Component{
+
   constructor(props) {
      super(props);
 
      this.state = {
-       dest: '',
-       email: '',
-       contact: '',
+       Ename: '',
+       Location: '',
+       Cost: '',
        start: "2016-05-15",
-       end: "2016-05-15",
-       purpose: '',
-       stay: '',
+       Strength: '',
+       desc: '',
        first: '',
        checked:'',
        loading: false,
@@ -26,23 +26,22 @@ class Create extends React.Component{
 
    onCreate() {
      this.setState({ error: '', loading: true });
-     var key =  firebase.database().ref('/TripData').push().key
-     const { dest, email, contact, start, end, purpose, stay, first, checked } = this.state;
-     if(email){
+     var key =  firebase.database().ref('/EventData').push().key
+     const { Ename, Location, Cost, start, end, Strength, desc, first, checked } = this.state;
+     if(Ename){
 
                this.setState({ error: '', loading: false });
-              firebase.database().ref('/TripData').child(key).set(
+              firebase.database().ref('/EventData').child(key).set(
                 {
-                 dest : dest,
-                 email : email,
-                 contact: contact,
-                 start : start,
-                 end : end,
-                 purpose: purpose,
-                 stay: stay,
+                 Ename : Ename,
+                 Location : Location,
+                 Cost: Cost,
+                 Eventdate : start,
+                 Strength: Strength,
+                 Description: desc,
                  first: first
                 })
-                Alert.alert('Trip', `${dest} + ${email} + ${contact} + ${start} + ${end} + ${purpose} + ${checked}`);
+                Alert.alert('Trip', `${Ename} + ${Location} + ${Cost} + ${start} + ${end} + ${Strength} + ${checked}`);
                 this.props.navigation.navigate('AccountScreen')
               }
      }
@@ -51,41 +50,44 @@ class Create extends React.Component{
   render(){
     return(
 
-      <KeyboardAvoidingView  style={styles.container} behavior="padding: null" enabled>
+      <KeyboardAvoidingView behavior="padding" enabled style={styles.container}>
 
         <TextInput
-          value={this.state.dest}
-          onChangeText={(dest) => this.setState({ dest })}
-          placeholder={'Where are you going?'}
+          value={this.state.Ename}
+          onChangeText={(Ename) => this.setState({ Ename })}
+          placeholder={'Event Name'}
           style={styles.input}
         />
         <TextInput
-          value={this.state.email}
-          onChangeText={(email) => this.setState({ email })}
-          placeholder={'Enter Your registered Email Id'}
+          value={this.state.Location}
+          onChangeText={(Location) => this.setState({ Location })}
+          placeholder={'Location'}
           style={styles.input}
         />
         <TextInput
-          value={this.state.contact}
-          onChangeText={(contact) => this.setState({ contact })}
-          placeholder={'Your mobile no.'}
+          value={this.state.Cost}
+          onChangeText={(Cost) => this.setState({ Cost })}
+          placeholder={'Cost'}
           keyboardType={'numeric'}
           style={styles.input}
         />
         <TextInput
-          value={this.state.purpose}
-          onChangeText={(purpose) => this.setState({purpose})}
-          placeholder={'Purpose of visit'}
+          value={this.state.Strength}
+          onChangeText={(Strength) => this.setState({Strength})}
+          placeholder={'Event Strength'}
+          keyboardType={'numeric'}
           style={styles.input}
         />
         <TextInput
-          value={this.state.stay}
-          onChangeText={(stay) => this.setState({ stay })}
-          placeholder={'Area of Stay'}
-          style={styles.input}
+          value={this.state.desc}
+          onChangeText={(desc) => this.setState({ desc })}
+          placeholder={'Description'}
+          multiline = {true}
+         numberOfLines = {4}
+          style={styles.inputA}
         />
         <View>
-          <Text style={{ fontWeight: 'bold'}}>Trip Duration</Text>
+          <Text style={{ fontWeight: 'bold'}}>Date of event</Text>
         </View>
         <View style={styles.dinput}>
 
@@ -112,18 +114,7 @@ class Create extends React.Component{
             // }}
             onDateChange={(start) => {this.setState({start: start})}}
           />
-          <DatePicker
-            style={styles.date}
-            date={this.state.end}
-            mode="date"
-            placeholder="When will you leave ?"
-            format="YYYY-MM-DD"
-            minDate="2016-05-01"
-            maxDate="2016-06-01"
-            confirmBtnText="Confirm"
-            cancelBtnText="Cancel"
-            onDateChange={(end) => {this.setState({end: end})}}
-          />
+
         </View>
         <View style={styles.check}>
           <CheckBox
@@ -140,7 +131,7 @@ class Create extends React.Component{
           />
         </View>
         <Button
-          title={'Create Trip'}
+          title={'Create Event'}
           style={styles.input}
           onPress={this.onCreate.bind(this)}
           />
@@ -149,7 +140,7 @@ class Create extends React.Component{
   }
 }
 
-export default Create;
+export default CreateEvent;
 
 
 const styles = StyleSheet.create({
@@ -164,6 +155,15 @@ const styles = StyleSheet.create({
    borderRadius: 9,
    width: 300,
    height: 44,
+   padding: 10,
+   borderWidth: 1,
+   borderColor: 'black',
+   marginBottom: 10,
+ },
+ inputA: {
+   borderRadius: 9,
+   width: 300,
+   height: 88,
    padding: 10,
    borderWidth: 1,
    borderColor: 'black',
