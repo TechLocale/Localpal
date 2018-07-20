@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "C:\\Users\\Harshit\\.android\\build-cache\\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 61,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\Harshit\\.android\\build-cache\\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 61,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 62,
+                    "endOffset": 227
+                },
+                "from": {
+                    "file": "C:\\Users\\Harshit\\.android\\build-cache\\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 62,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 232,
+                    "endColumn": 64,
+                    "endOffset": 292
+                },
+                "from": {
+                    "file": "C:\\Users\\Harshit\\.android\\build-cache\\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 64,
+                        "endOffset": 292
+                    }
+                }
+            }
+        ]
+    }
+]

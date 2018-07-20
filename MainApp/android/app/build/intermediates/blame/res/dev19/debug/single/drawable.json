@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\673e297d8fcbd7cfafee7d52666f273246c31444\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\splash_background.xml",
+        "source": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\673e297d8fcbd7cfafee7d52666f273246c31444\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\d53bce40474d7835f1602939ea910666b7352a08\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\header_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\header_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\275cda7fb8c309544f58c50767314f08ab1784ab\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\d53bce40474d7835f1602939ea910666b7352a08\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\spinner_background_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\spinner_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\loading_status_bar_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\loading_status_bar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\275cda7fb8c309544f58c50767314f08ab1784ab\\output\\res\\drawable\\com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\card_input_custom_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\card_input_custom_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\stp_card_form_front.png",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\stp_card_form_front.png"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\d53bce40474d7835f1602939ea910666b7352a08\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\21765736abf0265612d78186c8b243211c0a6f00\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\275cda7fb8c309544f58c50767314f08ab1784ab\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\card_512.png",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\card_512.png"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\edit_text_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\edit_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\673e297d8fcbd7cfafee7d52666f273246c31444\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\stp_card_form_back.png",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\stp_card_form_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\crop_image_menu_crop_stub.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\\output\\res\\drawable\\crop_image_menu_crop_stub.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\background_white.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\986aad567d5075776fdb512058de3959fe21e799\\output\\res\\drawable\\background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\21765736abf0265612d78186c8b243211c0a6f00\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\673e297d8fcbd7cfafee7d52666f273246c31444\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\d53bce40474d7835f1602939ea910666b7352a08\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\btn_default_holo_dark.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\drawable\\btn_default_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\45e5d27297c14284ecb4ebeea654e1522939a9df\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\b87fc87e811c6930879c8a45e22d0df441634e92\\output\\res\\drawable\\com_facebook_button_background.xml"
+    }
+]

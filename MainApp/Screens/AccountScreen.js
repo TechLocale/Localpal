@@ -22,6 +22,16 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 class AccountScreen extends React.Component {
+  static navigationOptions = {
+    headerTitle: 'Account',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="#fff"
+      />
+    ),
+  };
   constructor(props) {
     super(props);
 
@@ -137,48 +147,6 @@ class AccountScreen extends React.Component {
           </Modal>
           {images}
         </View>
-        <View style={styles.Bottom}>
-            <TouchableOpacity
-            style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('NewsFeed')}>
-             <View>
-                 <Icon  size={30} name='feed' />
-
-             </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.tab}
-              onPress={()=>this.props.navigation.navigate('PlannerScreen')}>
-              <View>
-                  <Icon size={30} name='paper-plane' />
-
-              </View>
-              </TouchableOpacity>
-            <TouchableOpacity
-            style={styles.tab}
-           onPress={()=>this.props.navigation.navigate('BoringScreen')}>
-               <View>
-                   <Icon size={30} center name='check' />
-
-               </View>
-           </TouchableOpacity>
-           <TouchableOpacity
-            style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('HomeScreen')}>
-                <View>
-                    <Icon size={30} name='list' />
-
-                </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-            style={styles.tabA}
-             onPress={()=>this.props.navigation.navigate('AccountScreen')}>
-                 <View>
-                     <Icon size={30} name='user' />
-
-                 </View>
-            </TouchableOpacity>
-        </View>
       </View>
     );
   }
@@ -204,25 +172,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
   },
-  Bottom: {
-    backgroundColor:'#ecf0f1',
-  marginBottom: 0,
-  flexDirection: 'row',
-  alignItems: 'stretch',
-  justifyContent: 'space-evenly',
-  position: 'absolute',
-  bottom:0,
-  width: '100%',
-},
-tab: {
-  padding: 5,
-  alignItems: 'center',
-},
-tabA: {
-  backgroundColor:'#ffff',
-  alignItems: 'center',
-  padding: 15,
-},
   grid: {
     flex: 2,
     flexDirection: 'row',

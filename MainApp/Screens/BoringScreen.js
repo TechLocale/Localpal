@@ -1,9 +1,19 @@
 import React,{Component} from 'react';
-import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , TouchableOpacity, ToastAndroid, StatusBar} from 'react-native';
+import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , TouchableOpacity, ToastAndroid, StatusBar, Button} from 'react-native';
 import { SearchBar} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class BoringScreen extends React.Component {
+  static navigationOptions = {
+    headerTitle: 'Boring Screen',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="#fff"
+      />
+    ),
+  };
   constructor() {
     super()
       this.state = {
@@ -93,7 +103,7 @@ export default class BoringScreen extends React.Component {
            justifyContent:'center',
            width:70,
            position: 'absolute',
-           bottom: 60,
+           bottom: 0,
            right: 10,
            height:70,
            backgroundColor:'#F9725F',
@@ -102,48 +112,6 @@ export default class BoringScreen extends React.Component {
         onPress={()=>this.props.navigation.navigate('CreateEvent')}>
           <Icon name="plus"  size={30} color="#ffff" />
         </TouchableOpacity>
-      </View>
-      <View style={styles.Bottom}>
-          <TouchableOpacity
-          style={styles.tab}
-          onPress={()=>this.props.navigation.navigate('NewsFeed')}>
-           <View>
-               <Icon  size={30} name='feed' />
-
-           </View>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('PlannerScreen')}>
-            <View>
-                <Icon size={30} name='paper-plane' />
-
-            </View>
-            </TouchableOpacity>
-          <TouchableOpacity
-          style={styles.tabA}
-         onPress={()=>this.props.navigation.navigate('BoringScreen')}>
-             <View>
-                 <Icon size={30} center name='check' />
-
-             </View>
-         </TouchableOpacity>
-         <TouchableOpacity
-          style={styles.tab}
-          onPress={()=>this.props.navigation.navigate('HomeScreen')}>
-              <View>
-                  <Icon size={30} name='list' />
-
-              </View>
-          </TouchableOpacity>
-          <TouchableOpacity
-          style={styles.tab}
-           onPress={()=>this.props.navigation.navigate('AccountScreen')}>
-               <View>
-                   <Icon size={30} name='user' />
-
-               </View>
-          </TouchableOpacity>
       </View>
       </View>
       </View>
@@ -159,23 +127,4 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
 
   },
-  Bottom: {
-    backgroundColor:'#ecf0f1',
-  marginBottom: 0,
-  flexDirection: 'row',
-  alignItems: 'stretch',
-  justifyContent: 'space-evenly',
-  position: 'absolute',
-  bottom:0,
-  width: '100%',
-},
-tab: {
-  padding: 5,
-  alignItems: 'center',
-},
-tabA: {
-  backgroundColor:'#ffff',
-  alignItems: 'center',
-  padding: 5
-},
 });

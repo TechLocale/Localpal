@@ -20,6 +20,7 @@ class CreateEvent extends React.Component{
        first: '',
        checked:'',
        loading: false,
+       
 
      };
    }

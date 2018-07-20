@@ -4,6 +4,9 @@ import { StyleSheet, Text, View, Button, StatusBar, Alert, TextInput} from 'reac
 import firebase from '../firebase';
 
 class LoginScreen extends React.Component{
+  static navigationOptions={
+    headerVisible: false,
+  }
   constructor(props) {
      super(props);
 
@@ -39,7 +42,7 @@ class LoginScreen extends React.Component{
    }
 
    onJump() {
-     this.props.navigation.navigate('PlannerScreen')
+     this.props.navigation.navigate('DrawerNavigator')
    }
 
    render() {

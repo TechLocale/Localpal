@@ -3,7 +3,7 @@
     "sdkVersion": "27.0.0",
     "name": "MainApp",
     "slug": "mainapp",
-    "version": "0.1.1",
+    "version": "0.1.2B",
     "scheme": "exp7b94bd5e4a0348abaad872a4d7b03b7f",
     "android": {
       "package": "com.lp.MainApp",

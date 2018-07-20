@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\Harshit\\.android\\build-cache\\a288ff750127b22650ca93631bbcd19740e83f18\\output\\res\\values-en-rCA\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    }
+]

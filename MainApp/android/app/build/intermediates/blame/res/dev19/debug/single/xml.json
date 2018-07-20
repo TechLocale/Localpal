@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\873cbd127e0fcef86a1516aa02bf8658975391a3\\output\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\global_tracker.xml",
+        "source": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\generated\\res\\google-services\\dev19\\debug\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_material.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\xml\\stub_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Harshit\\Documents\\GitHub\\Localpal\\MainApp\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_classic.xml",
+        "source": "C:\\Users\\Harshit\\.android\\build-cache\\4b8300a62dd7219eebdac69a198fbe78140bd477\\output\\res\\xml\\stub_classic.xml"
+    }
+]

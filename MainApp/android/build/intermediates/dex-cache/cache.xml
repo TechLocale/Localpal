@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\2ea5f96d6668c91e13fd9b694ef774c2a2493bc6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae335c9696bc1513f7e3bb96a731b722712d7a63">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4124f8f60c01ea7cadf279c9bea71095373993b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.1\e1bb32b12b25e2f78e6786059ca7ea878f8345e0\support-annotations-26.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\support-annotations-26.0.1_f809470db4fbe03da56b62dfe8e794bcee4e7444\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9450113d49441daffb2cea9006ac0163d7273fc4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec224ad624f39212bacaf5903d989fe066166e7a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6009b85d015d179678b981a70af32608b0b6ca7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\89661237ad574c80051f382feff19e6ac897abc9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_af78235eaafde46a5f2b1b2873c182609adb8ca9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\860dadcc8089f22f57d0ef621aad97fcfe261f71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42a37372fca7123a593202ba76a7f98fbd691f05">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_cd6d187ed3ab540ed17a9a109b9a539eeb87cf45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\core\1.53.0.0\619f704791db186304325bd129b2e7ec34f77438\core-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\core-1.53.0.0_409c5479e7b465a0ecc32eb7bcd20e257f77afc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\0ad6727a092d37ccec51c3ee622d78e80c0af253\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_aba565d651b0dc68a98c5a5a733505177d8c490e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\873cbd127e0fcef86a1516aa02bf8658975391a3\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_fa311e446bbb5b8aeb0a77d3c1afe0753c8cbe11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\d7ee2f481cac7d995ba1bca5125f06a0dfbd8b3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_bfb4c3cfbe868c83ebdb007fab545f47dba47771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\162dad4b0a2ccc1be9d4d5e6b4f49b6e3875e64a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_01c228a40afe974209a479c3d783207731b68b50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ac2fdfc9ef0256bc6bf97df987cb0f732e2d8c63\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6adbf303f4dc87e9c5ef0062ace548a7cbd28cf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.facebook.device.yearclass\yearclass\1.0.1\adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22\yearclass-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\yearclass-1.0.1_6ffd6fe2187757a85ab8dbc153a42f888361ff64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\maven\expolib_v1\com\squareup\okhttp3\okhttp-urlconnection\3.6.0\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-urlconnection-3.6.0_943367c0340b89945b919d377b708c09e91c99ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\59a12db768abf8f289d1b182cbb07cbcd582d4fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_99de64530badf6e80f8fe07d9a182168a788f06c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.raizlabs.android\DBFlow-Core\2.2.1\e07bfc8e2041edf27469bd94e08bc19f52f4dee7\DBFlow-Core-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\DBFlow-Core-2.2.1_36f0d5dfd250227333dbec458259a8426ffaeebb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\35fc8fd33e312f277389b4dbe86c584ccd2591a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_bb778508164ed5d37577c218c1f45c79cbc2999e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\4b8300a62dd7219eebdac69a198fbe78140bd477\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="64cd9f68288a814c311fe2723b68bd91aa241c7b">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6c14f74c02ea95943aafa8ae7f255389a13a1f51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.segment.analytics.android\analytics\4.3.0\88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e\analytics-4.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\analytics-4.3.0_6c948e3419a45d34f44d16f4077dfa38d7cb1fbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\2df03795081c443d6231011108248ca344b84c8d\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7721fdd1d59c4b8ae136c087b7590ec69061d97f">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_1fe1a665cfa4c1f9dc22ee4968985a49bb61bca6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\b57e2214dd74331420642f628d7ba10f7757d2bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a2f9209ff0d33539df6866d019181ecd1ecd047">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_de62991c76355c11cc65c52a49356564a89c9ef8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\1df3f9d849248dddbbccedae8b0e136d558b4c23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_19dbdd50e360a8280cd8d6568037a7dc0ee460dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\edcf448c5b6331b79d8597a7dc22202d7db5435b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b276403bd6becc5793a0eee3f6fd9f098432ee15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\77dc5eeb0a744076aad88b8e272b7b3fac55e89c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_7eddabd38a0a0f9ef7b9c0c0146e83db5e2148c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\95bd54c918a45859bce7bc57b456d053cc0a347a\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_25f646540a3b050d550eb4e1473203bec1af0af1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\5457204e8538cb59196c18bd5cabc787462ccc0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c83a644dfc8545d77ed076721762fc4eb4092d81">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b14e17d835b5fd24f7194b4bcca41121752bd47a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\b35e1dd12b014ac0de4fd0f89bec819a4b0858a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e80a512dd762b771229c64c31dbc4b2d52f3123b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\986aad567d5075776fdb512058de3959fe21e799\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9111e38999fee0b16a1ccd057b779f5b08f330e2">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_114c61c25718475bce7dbf7ac24b3ec818b7312e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\1.3.2\b6dde38349ba9bb5e6ea6320531eae969985dae5\commons-io-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-io-1.3.2_0e12dd5d7f7f123135b4a9917c8c08abdd0d9457\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\8374fbe7a1d68a1343878b6e76a67063d805f756\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b5f066becf7abfcd5a697df785f89bba1505f0b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\cb3a9c05023a993b765d420e79d15adfcd4b70ef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4df185ce9e66b2d718243a37db771ea4b55780b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\092d6cebac0f230633751f81a4a2785678bf54f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ceeea7011897cdeb2f3af5d5ebad40262fdd01ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\aa1afe1e237b7697dc6d123d03d60f7cf499fb9f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1da9c4976a6f3b251501fcee2c470a6d9dfe2031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\c5f49526e5da485af20cc0ad010cb527670caac7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="131115ec18ae3951c1584c543de8baa9ac20012a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_9814aabc1360f311f0210bb0a4fc6c168778cb05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\maven\expolib_v1\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okio-1.13.0_d01a1fa297b2a9461ac6591c0d83f6b752d8b877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\251d4794753361a17449c406cc1a54fa482c33b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_dd940bea14fa332242608d6322398cd2f3073de0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-urlconnection-3.4.1_52397edb7d02350be2ac5b6abf07d8c2460621f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\eventbus-2.4.0_eeef38a57ea48e35b93d939fcce66f429a378c74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\6ab8f7b104868369857da52e0c61811358a8a5f3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_49e6860e87a080a36a1c36625d4ec2679cc718c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a2d4737377acf6bcb4d676b112501f43296c7dbb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_fe846c2ee7a39be39ea21462275dd224deeade73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\d516784fffda2f309f0433653cd39df1b543acf9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_030099df5a2989cddcec9338f76237760dee6eaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\1b899e68ab39b4a20176d99f5cd6ab8fcbfe995b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_d156dfef289c5de5f7fb7e13c396f394c46c46a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\80997d42af8811533e1c08661cd5af8ac478d4c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_fcd7036d810d510404e29876397a377174d07546\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\universal-image-loader-1.9.5_c6f412192d3798407108cf36f172ad7475a42c14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-cli-1.2_506a8f393ea33c1b7f20c05e8fea52552fc76be6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\jackson-core-2.2.3_0c432d6974ac10c7ef27d4c0941dd13942a00d98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\34f46730cd53751085e020ab0b7113e810e6c2ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a1492284d5b14f01be0816b3dfa8fb94096de0ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\3683995ad25ba46c6c144af2e50abca386d50b5e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_20bc358e3a3ee8da27ec49fd2c5a1cb4a0979102\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\673e297d8fcbd7cfafee7d52666f273246c31444\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_384a35149054b67b7a6e788800dfe7e0781eafa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\bolts-applinks-1.4.0_318a5f1b471a8fc644f61b13e7f13ceabff897f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\e2363b555712e4a8508154f04a29a848473ca941\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e3f1a5c47519bdd04a5dabc46e862f4e3e9ab08b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\af66dd7f6f34bc257dacdd92039e6c609b3977a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_776b577350b967df09077c3a1f343a22512b4615\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\6ae2730caf09f22308efdc9103a6e2db85af729f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_16df466daf9ab721ecee3b3abad86f945f81b20a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\6f3238f2729e3add13baecb8c615270e8c76885d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="13469de5eef4b3c0488c0e4963fef197fc745f8a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6e686ed29d74ce1b0fb9dd112c8d77aa43f4d5d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\fce35361c9e709a0f641d3f6b3adf45cd0d665bc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6f6e5910b96e88d15737c6870b8ba8bcc3752d42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\95bd54c918a45859bce7bc57b456d053cc0a347a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ba17cde8ce4d4b454d8dc3fb18a2914f83ee2fa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a90cc235a49a350335936e152a96b034a427a9d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b7a150d257afced52522a9101124a42bea7b239d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\b87fc87e811c6930879c8a45e22d0df441634e92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ac72c233d7c8e4eb5f1f2c5da9bb93c07c05885d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\321317e328bfd951490f9b1b76aeb53d4d446c40\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_15c2b7a263921f2b52445d4a9d143cb98c6edd97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\d53bce40474d7835f1602939ea910666b7352a08\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_0e724d81ca80cd9e41ef90b2b11c21c6abf3113c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\242ec8b8b3c806843a1fada434c626d113b59856\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="af69623378285932372eb7b3b8ff0ef66fa42b93">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6a06e626c2542ef9be7c9b282e6c4c3e64915472\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ca13949a053aea7e72b3e526293022abbb48fc93\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_79343dca97c98603bd684b1cbc35f44f2d0c8d4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\5ea179994c24c475f164543df458432d10fd20ef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_3d46bfd58930dd4e1745e70c0611f48b6f846f7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\17c5d3cb02fce51d251b8f2c1d49b09bca2ca486\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_fffdb976e3320e4fc0b4591822ab28b8689dfb0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\incremental-runtime-classes\dev19\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10000\instant-run_ab3fe81ec939775b87d7099e2ebf52363702bd60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9ea3e6d20654dda10c0d5809d44ad6950105779d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_d5d06f7ae5a1a76e0787e5b128c23963a14d2cf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\21765736abf0265612d78186c8b243211c0a6f00\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4920e770aa8d8991418a41a9b53e166e570e904f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\0c7e71ca4c3677fea8e59044c95ee8a52963fba2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_184816e0634809d97c263c5260c6c6ec099cd06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\1fefc9fecf41be28fe22b69c796a5a49cd7f9c90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="79b01f1eace6ce22c6ffd67000bd6b5c5d2477a9">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_7a9914e24d1a68b9cd3bedfba82019ec83d0da29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a9e68b527288bc9777e9656909318702e5ab709c\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_a35e344e3d2227e5521a9e87baf33c7fd5bbb2fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a477b9ccefae34e6eb926eea61700e57ab2e50a8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4bd8e4a9e2e8a40469186b2ccb2785ade046ff89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\0de78caac993a63beb82ebc77a787f1dc7c8a330\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53dc9d74b0ac22d201549cd806780597d9679e9a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_c925d96cbd3f0b020b408caf60b61e861f3d22d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\73911e1a3057fcec94e26baca92e50b65047d0e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03530f261b6f66dbcae414f12c732bd943f5ba53">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_c987453c9f196ad432898d08159bf4c7de4adfe2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\staticlayout-proxy-1.0_7edb19e4dbef7b5ee97a6fb850cb02e346589720\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\19c35b093bc165178499e91092f5e4cfdb9f218e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b26fe0b3e9c3396ae3944c4585014e566645c52d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\5c679179b0f0c9d8c919e835914d3db77d1ff9ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_21d6fddd2be6c63a6af42bfee0054765589e6ffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9b8817745fd8cf23d0e1f0c0f42f76aa23a26e9d\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_89542f818b05d6968741573179eb96845531ae33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a9e68b527288bc9777e9656909318702e5ab709c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_aa11853f22ab9a4d4b06b8631eb8b82da474ee71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ca13949a053aea7e72b3e526293022abbb48fc93\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_cbbbc4672c88fcd9dbb22f4249296c840d68ad53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\70809dcddd3abe75667b1308ff214186ab9817d0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1b3a0bdb0580d3538a0356846f9e713b7b931734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9d1f0900db475128227ac3ce1d5a12b041c0e727\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a0c1b72a0340d21011ca76aa9471b2ead3ad173a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\prov\1.53.0.0\72c4892e05c7563fbab0c4ada0187cd879113389\prov-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\prov-1.53.0.0_77864595386fb478eec2f2ef9df48ca379403ab2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\e3a2c6005cb933d8890fb37427e6de62525d1956\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6a9565e1ad45a9ab44e510f08bc71a92da6692a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\javax.inject-1_c1275bf2218decfca68429c77a28236295a51344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\76091aff2ae84b660e4dae576696e498557ba694\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5639b7cef88fe72dd6db6b34b70cee236eb307f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\f1980657c5ace39f7c2831664581155d340765cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="906fdd57c143ec9adc27a76a697fed1c0cfd6348">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1b3d94111822e01b8ff9ce25b80005bbd123051f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\a288ff750127b22650ca93631bbcd19740e83f18\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_671fee4a2e567284c6b90a7c0fdb7da47aba0425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\cacb17e1e7057d68015e580f25a4e38a7797c19f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_9a691c02ac524765991e9f7fba19ab6af41d4347\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\641f7f8c3eb9c9970f1c3a9c70d3d5fae8c651f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b6a087459d881761dae9a2aa2f4b513033959cb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\37632180dd4130999a100cb3d75d751a1b512581\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea01f90e60978bc6871543cd76136a97a19450b5">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_d9f6f46449ec7ecf480c0705f03acce26dbc1ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\bolts-tasks-1.4.0_55b4bc465e03d45f0497fedc6836a0e6bd18e2e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\54d136af22eb3e26c0553bb1e60a9e228dec24f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfb92acadeeff1086115fff6b318e95df8b2b29">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4c94e351be5999e1a9c2c3d519b29c0caa0d7995\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.3.1\2c4076b466a0eb4d6ddf5721edd35cd1adc1f317\stetho-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\stetho-1.3.1_855a3df0e4562aac25b41ce44c9c3a55d80fe858\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\260e3c47a32b9f5f2a04448f97dcaa6297554121\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5ab9420db3512edf0488d59b17df5658fcab19f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\3c68cafa29ae39b0be09709dfbaa59e251c7a82e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f70060db011e171dbcf058044bdae7d939d7314c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\37632180dd4130999a100cb3d75d751a1b512581\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_03b4b5b30ad32dea2591dd67d6b0b648cdc49b0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\core-3.3.0_4e5728810b7a5a9658f4536aeef7143cc81249e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\2df03795081c443d6231011108248ca344b84c8d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67b6fa134bb2e2163e293f7ae9b898b985979515">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_96b410e6749ebe9931e3c1972c503df6414516a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-3.4.1_a1b329c1fc81eecdf0adf9aeeea9bea2ff0a869b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\873cbd127e0fcef86a1516aa02bf8658975391a3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="00bffcece869fcc14f8c3fe523a11c6c53356b44">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_dab21b0d8667fb8731b7907fd8bbe8904d417c75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\incremental-classes\dev19\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5333bcb7a29cddc4939d692a9d7b7296b6f19494">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10000\instant-run-bootstrap_4a6c5bb603180404eb6e44aa8fb91a4e7e0958f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ee0eb300c6ec908cdedb2e6f81b423295a4a1792\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_368079c4d5636168e6fa3b7d56acdbc14a57a87a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\c3b70d10ed16089a449117f174bf4470a330948d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e899884104f58bc8d0fc1109e2b303701df75ab0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\275cda7fb8c309544f58c50767314f08ab1784ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_7230667173d185137b05f27d1f198a5d328caee0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ada1c3e11c09abdab9f00bcd804073856d1fe03c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e2e2afafbfdd7fb029552bab659a446220e9fc7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9d5ca031f677d4dac9fee70a2291288dc3fbad04\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_3251ef958292ab94a01200728ef091c2b544d9aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp3\1.3.1\c596b3b33b5a92107bb70544bb5ee35f597bc6d8\stetho-okhttp3-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\stetho-okhttp3-1.3.1_3ee9e9902bdd03baf146340f6e811694796dd064\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\c6e3c5d6e22b4b2c85a4c32f3a8cc433c17e9e55\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a795b2931d1c7cce84d1f2f5556898dcd25bcf8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Program Files\Android\Android Studio\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-codec-1.10_24546c372f68a94d717175f066aafadd12cd1c0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9b8817745fd8cf23d0e1f0c0f42f76aa23a26e9d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="418dca1ee8bac0cc2f78f8f34b594c4d89eec057">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_fdf3ce4457b95ee7bac62e0d0969b96b10791dc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\191520df1b7fcf14f83a8e27e5cbadd1cffd788b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_64bb3a3a41fac1cec4bfe63ffa66d9f314cb15d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okio-1.9.0_ceda5ee5159ada26bc198666a4c1f4f61bb0804d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\1fb67ed515e9228a253a4b59de8c6182f3dbf5cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_685b56a68c481297ffcd12e86b7dad8e2c392a7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\d2afefcfb43e8e0a00a2c9593df1e700cea8c06a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dae2154348a4c38a18e8d1042cf445faea4647d0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b78524d340c7201a4f24f3b3e0c658b61c976f32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\jsr305-3.0.0_71ad1869857d91779c3aacaa96ea4f1ef5eb2b8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\maven\expolib_v1\com\squareup\okhttp3\okhttp\3.6.0\okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-3.6.0_56f79b617722b98ebb110d56c3d17720855a0a79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\45e5d27297c14284ecb4ebeea654e1522939a9df\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b4c39ee7a229bac6193ad587595e164c1c6918ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.amplitude\android-sdk\2.9.2\5ff2f760c3bcad9d4e60f1f84aa695321184ebc0\android-sdk-2.9.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ff2f760c3bcad9d4e60f1f84aa695321184ebc0">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\android-sdk-2.9.2_b418e98827f34ef426992ee9be105efe3f1d6b64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-ws-3.4.1_ec2fd431a54b869e38b40acc51a0b29e1f13c4c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\fe61d6d161afc20558fc9c90f384b31bcbf89042\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_20294374f60a2f7487cb5673bb2dca27b1c3251d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\d2f6ffe62fd6c3d617e97d8c998c1b363d1d1a98\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_2364f31f920771e0b355c9f4771e923340e37338\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\7fb00608521b9bddd271a0ccc7cd1341d8aa9a5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ed12e5be3fe50ebf667dc9c6b9526567742df1e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\9d1f0900db475128227ac3ce1d5a12b041c0e727\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_5075c18459b9410cd9fead69794891230b5b5b13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\picasso-2.5.2_29cbfb3e7e95dfa760216c56fd5a0dcea10c38f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\66588a6f6af9a2b76e68bde58eb77ac4104b25f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a2685dc020168f6dd0d0f976e527f332eb0b5814\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\ea82da15403964fd1dfa33af433347e1990f67ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ba9d12ec1f24a79df73c2056883a42075c6f8857\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\b5b4313047211bbddf1f511531b0288c28904a29\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_d25fab2535824acdfdf350ad487669483cd01a86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\5668c13d1dac4bf0555aa16885643caefbf78cce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_403fcf6489026a0896d09f54d604b2a6757de0e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\butterknife-7.0.1_b22bc78e07901f92176e8a4c052597f9056abb49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Harshit\.android\build-cache\047539dda3dda42bfd79d62550d4c8022837d0c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\Harshit\Documents\GitHub\Localpal\MainApp\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6199d3e87f273cb2ebf0e815661287f8a8158fc3\classes.dex" />
+    </item>
+
+</items>

@@ -7,8 +7,15 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 class PlannerScreen extends React.Component{
   static navigationOptions = {
-  title: 'Planner',
-}
+    headerTitle: 'Planner',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="#fff"
+      />
+    ),
+  };
 render(){
     return(
       <View style={styles.container}>
@@ -67,48 +74,6 @@ render(){
           this.props.navigation.navigate('GetPal')}
           style={styles.input}/>
         </View>
-        <View style={styles.Bottom}>
-            <TouchableOpacity
-            style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('NewsFeed')}>
-             <View>
-                 <Icon  size={30} name='feed' />
-
-             </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.tabA}
-              onPress={()=>this.props.navigation.navigate('PlannerScreen')}>
-              <View>
-                  <Icon size={30} name='paper-plane' />
-
-              </View>
-              </TouchableOpacity>
-            <TouchableOpacity
-            style={styles.tab}
-           onPress={()=>this.props.navigation.navigate('BoringScreen')}>
-               <View>
-                   <Icon size={30} center name='check' />
-
-               </View>
-           </TouchableOpacity>
-           <TouchableOpacity
-            style={styles.tab}
-            onPress={()=>this.props.navigation.navigate('HomeScreen')}>
-                <View>
-                    <Icon size={30} name='list' />
-
-                </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-            style={styles.tab}
-             onPress={()=>this.props.navigation.navigate('AccountScreen')}>
-                 <View>
-                     <Icon size={30} name='user' />
-
-                 </View>
-            </TouchableOpacity>
-        </View>
       </View>
 
     );
@@ -140,22 +105,5 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'black',
     marginBottom: 10,
-  },
-  Bottom: {
-    backgroundColor:'#ecf0f1',
-  marginBottom: 0,
-  flexDirection: 'row',
-  alignItems: 'stretch',
-  justifyContent: 'space-evenly',
-  position: 'absolute',
-  bottom:0,
-  width: '100%',
-  },
-  tab: {
-    padding: 5,
-  },
-  tabA: {
-    backgroundColor:'#ffff',
-    padding: 10,
   },
 });
