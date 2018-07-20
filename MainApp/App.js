@@ -35,11 +35,11 @@ const AppNavigator = new createStackNavigator({
   Create: { screen: Create},
   GetPal: { screen:GetPal},
   Home: {screen: Home},
-
+// testing 123
   CreateEvent: { screen: CreateEvent},
 
   DrawerNavigator: {screen: DrawerNavigator }
-}, 
+},
 {
     navigationOptions: {
         headerVisible: false,
