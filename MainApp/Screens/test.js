@@ -44,7 +44,7 @@ export default class App extends React.Component {
       var newData = [...that.state.listViewData]
       newData.push(data.val())
       that.setState({ listViewData: newData,
-    
+
         name:data.val().name })
         console.log(data.val());
     })
@@ -54,7 +54,7 @@ export default class App extends React.Component {
   renderItem = ({item}) =>{
     return (
       <TouchableOpacity style={{ flex:1, flexDirection: 'row', marginBottom:3, marginTop:0}}>
-         
+
          <View style={{ flex:1, justifyContent:'center'}}>
             <Text style={{ fontSize: 18 , color:'green' , marginLeft: 5}}>
               {item.name}
@@ -98,7 +98,7 @@ export default class App extends React.Component {
         keyExtractor={( item ,index)=> index}
         ItemSeparateComponent={this.renderSeparater}   //Adds Dividers to the Flatlist
       />
-      
+
       </View>
     );
   }

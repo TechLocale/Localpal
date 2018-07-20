@@ -138,21 +138,4 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     marginBottom: 10,
   },
-  Bottom: {
-    backgroundColor:'#ecf0f1',
-  marginBottom: 0,
-  flexDirection: 'row',
-  alignItems: 'stretch',
-  justifyContent: 'space-evenly',
-  position: 'absolute',
-  bottom:0,
-  width: '100%',
-  },
-  tab: {
-    padding: 5,
-  },
-  tabA: {
-    backgroundColor:'#ffff',
-    padding: 10,
-  },
 });

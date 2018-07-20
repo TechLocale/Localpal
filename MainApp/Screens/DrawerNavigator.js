@@ -10,11 +10,11 @@ const InnerStackNavigator = new createStackNavigator({
     TabNavigator: {
         screen: HomeScreenTabNavigator
     }
-}, 
+},
 {
     headerMode: 'none',
     navigationOptions: {
-        headerVisible: false,  
+        headerVisible: false,
 
     }
 })
@@ -22,16 +22,15 @@ const InnerStackNavigator = new createStackNavigator({
 
 const AppDrawerNavigator = new createStackNavigator({
     HomeScreen: { screen: InnerStackNavigator },
-}, 
+},
     {
         headerMode: 'none',
         navigationOptions: {
-            headerVisible: false,  
-    
+            headerVisible: false,
+
         }
     })
-    
+
 
 
 export default AppDrawerNavigator;
-

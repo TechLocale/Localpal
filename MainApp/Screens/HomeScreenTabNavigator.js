@@ -73,5 +73,3 @@ const HomeScreenTabNavigator = new createBottomTabNavigator({
         }
     }
 })
-
-
