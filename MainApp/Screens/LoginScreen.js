@@ -22,7 +22,7 @@ class LoginScreen extends React.Component{
      firebase.auth().signInWithEmailAndPassword(email, password)
          .then(() => {
              this.setState({ error: '', loading: false });
-             this.props.navigation.navigate('AccountScreen')
+             this.props.navigation.navigate('BottonNavigator')
 
          },(error) =>{
            Alert.alert(error.message);
@@ -42,7 +42,7 @@ class LoginScreen extends React.Component{
    }
 
    onJump() {
-     this.props.navigation.navigate('DrawerNavigator')
+     this.props.navigation.navigate('BottomNavigator')
    }
 
    render() {

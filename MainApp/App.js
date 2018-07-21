@@ -9,8 +9,7 @@ import SignUpScreen from './Screens/SignUpScreen';
   import CreateEvent from './Screens/CreateEvent';
   import test from './Screens/test';
 
-import DrawerNavigator from './Screens/DrawerNavigator';
-
+import HomeScreenTabNavigator from './Screens/HomeScreenTabNavigator';
 
 export default class App extends React.Component {
 
@@ -22,15 +21,14 @@ export default class App extends React.Component {
 }
 
 const AppNavigator = new createStackNavigator({
+
+  BottomNavigator: { screen: HomeScreenTabNavigator},
   // test: { screen: test},
   LoginScreen: { screen: LoginScreen},
   SignUpScreen: { screen: SignUpScreen},
 
-
 // testing 123
   CreateEvent: { screen: CreateEvent},
-
-  DrawerNavigator: {screen: DrawerNavigator }
 },
 {
   headerMode: 'none',

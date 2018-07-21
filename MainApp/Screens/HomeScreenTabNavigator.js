@@ -10,13 +10,13 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 import NewsFeed from './NewsFeed';
-import MessageScreen from './MessageScreen';
+import TopBar from './TopBar';
 import PlannerStack from './Planner/PlannerScreen';
 import BoringScreen from './BoringScreen';
 import AccountScreen from './AccountScreen';
 
 
-export default class AppTabNavigator extends Component {
+class AppTabNavigator extends Component {
 
 
     render() {
@@ -25,7 +25,7 @@ export default class AppTabNavigator extends Component {
         )
     }
 }
-
+export default AppTabNavigator;
 const HomeScreenTabNavigator = new createMaterialBottomTabNavigator({
     NewsFeed: {
         screen: NewsFeed,
@@ -37,7 +37,7 @@ const HomeScreenTabNavigator = new createMaterialBottomTabNavigator({
         }
     },
     MessageScreen: {
-        screen: MessageScreen,
+        screen: TopBar,
         navigationOptions: {
             tabBarLabel: 'Messages',
             tabBarIcon: () => (
