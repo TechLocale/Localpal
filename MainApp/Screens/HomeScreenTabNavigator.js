@@ -5,13 +5,13 @@ import {
     StyleSheet
 } from "react-native";
 
-import {createBottomTabNavigator} from 'react-navigation';
+import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 import NewsFeed from './NewsFeed';
 import MessageScreen from './MessageScreen';
-import PlannerScreen from './PlannerScreen';
+import PlannerStack from './Planner/PlannerScreen';
 import BoringScreen from './BoringScreen';
 import AccountScreen from './AccountScreen';
 
@@ -26,7 +26,7 @@ export default class AppTabNavigator extends Component {
     }
 }
 
-const HomeScreenTabNavigator = new createBottomTabNavigator({
+const HomeScreenTabNavigator = new createMaterialBottomTabNavigator({
     NewsFeed: {
         screen: NewsFeed,
         navigationOptions: {
@@ -45,8 +45,8 @@ const HomeScreenTabNavigator = new createBottomTabNavigator({
             )
         }
     },
-    PlannerScreen: {
-        screen: PlannerScreen,
+    PlannerStack: {
+        screen: PlannerStack,
         navigationOptions: {
             tabBarLabel: 'Planner',
             tabBarIcon: () => (
@@ -68,8 +68,13 @@ const HomeScreenTabNavigator = new createBottomTabNavigator({
         navigationOptions: {
             tabBarLabel: 'Account',
             tabBarIcon: () => (
-                <Ionicons name="ios-contacts" size={24} />
+                <Ionicons name="ios-contacts-outline" size={24} />
             )
         }
     }
+  },
+  {
+  activeTintColor: 'white',
+  inactiveTintColor: 'white',
+  barStyle: { backgroundColor: '#33ADFF' },
 })

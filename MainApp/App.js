@@ -8,11 +8,7 @@ import SignUpScreen from './Screens/SignUpScreen';
 
   import CreateEvent from './Screens/CreateEvent';
   import test from './Screens/test';
-  import Home from './Screens/Planner/Home';
-  import InTrip from './Screens/Planner/InTrip';
-  import GoHome from './Screens/Planner/GoHome';
-  import Create from './Screens/Create';
-  import GetPal from './Screens/GetPal';
+
 import DrawerNavigator from './Screens/DrawerNavigator';
 
 
@@ -30,23 +26,15 @@ const AppNavigator = new createStackNavigator({
   LoginScreen: { screen: LoginScreen},
   SignUpScreen: { screen: SignUpScreen},
 
-  InTrip: { screen: InTrip},
-  GoHome: { screen: GoHome},
-  Create: { screen: Create},
-  GetPal: { screen:GetPal},
-  Home: {screen: Home},
+
 // testing 123
   CreateEvent: { screen: CreateEvent},
 
   DrawerNavigator: {screen: DrawerNavigator }
 },
 {
+  headerMode: 'none',
     navigationOptions: {
         headerVisible: false,
-        headerStyle: { backgroundColor: '#33ADFF' },
-        headerTitleStyle: { color: 'white' },
-        headerTintColor: '#fff',
-
-
     }
 })
