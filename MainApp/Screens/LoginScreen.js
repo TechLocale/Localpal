@@ -21,8 +21,8 @@ class LoginScreen extends React.Component{
      const { email, password } = this.state;
      firebase.auth().signInWithEmailAndPassword(email, password)
          .then(() => {
-             this.setState({ error: '', loading: false });
-             this.props.navigation.navigate('BottonNavigator')
+             this.setState({ error: '', loading: false })
+             this.props.navigation.navigate('BottomNavigator')
 
          },(error) =>{
            Alert.alert(error.message);
