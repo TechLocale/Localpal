@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , Button, TouchableOpacity, ToastAndroid, StatusBar} from 'react-native';
+import { StyleSheet, Text, View, FlatList , Image , ActivityIndicator , Button, TouchableOpacity, ToastAndroid, StatusBar, ScrollView} from 'react-native';
 import { SearchBar, Card, ListItem} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -21,56 +21,38 @@ export default class NewsFeed extends React.Component {
         isLoading:true
       }
   }
+
+  ongo(){
+
+  }
   renderItem = ({item, i}) =>{
     return (
-      <View style={{ flex:1, flexDirection: 'row', marginBottom:3, marginTop:0}}>
-        <Card>
+      <View style={{ flex:1, marginBottom:3, marginTop:0}}>
+        <View>
           <ListItem
           key={i}
           roundAvatar
-          title={item.author}
           avatar={{uri:item.image}}
-        />
-          <Image style={{ width:'100%', height:400 , margin:5}}
+          />
+          <Image style={{ width:'100%', height:400}}
               source={{uri: item.image}}/>
-          <Text style={{marginBottom: 10}}>
-            The idea with React Native Elements is more about component structure than actual design.
-          </Text>
-          <View style={{flexDirection: 'row'}}>
-              <TouchableOpacity style={{padding:5}}>
-                <Icon size={30} name='thumbs-up'/>
-              </TouchableOpacity>
-              <TouchableOpacity style={{padding:5}}>
-                <Icon size={30} name='comment'/>
-              </TouchableOpacity>
-          </View>
-          <Button
-            onPress={() => console.log('Works')}
-            title='VIEW NOW'/>
-        </Card>
-
-         <View style={{ flex:1, justifyContent:'center'}}>
-            <Text style={{ fontSize: 18 , color:'green' , marginLeft: 5}}>
-              {item.book_title}
-            </Text>
-            <Text style={{ fontSize: 16 , color: 'red'}}>
-              {item.author}
-            </Text>
-            <View style={{flexDirection: 'row'}}>
-            <Text style={{ fontSize: 16 , backgroundColor: 'green', padding:5,marginRight:5, marginLeft:5}}>
-              {item.vacant}
-            </Text>
-            <Text style={{ fontSize: 16 , backgroundColor: 'red', padding:5,marginRight:5, marginLeft:5}}>
-              {item.full}
-            </Text>
-            </View>
-         </View>
+            <TouchableOpacity>
+              <View style={{margin:15}}>
+                <Text>
+                {item.author}
+                </Text>
+                <Text style={{marginBottom: 10}}>
+                  The idea with React Native Elements is more about component structure than actual design.
+                </Text>
+              </View>
+            </TouchableOpacity>
+        </View>
     </View>
     )
   }
   renderSeparater = () => {
     return (
-      <View style={{ height:1 , width:'100%' , backgroundColor: 'black'}}>
+      <View style={{ height:3 , width:'100%' , backgroundColor: 'black'}}>
 
       </View>
     )
@@ -107,7 +89,33 @@ export default class NewsFeed extends React.Component {
         // onChangeText={someMethod}
         // onClear={someMethod}
         placeholder='Type Here...' />
-
+      </View>
+      <View >
+      <ScrollView horizontal={true} >
+        <View>
+          <Button
+            title='Music'
+            style={{width: 300}}
+            onPress={this.ongo.bind(this)}
+          />
+          <Button
+            title='Travel'
+            onPress={this.ongo.bind(this)}
+          />
+          <Button
+            title='Food'
+            onPress={this.ongo.bind(this)}
+          />
+          <Button
+            title='Photography'
+            onPress={this.ongo.bind(this)}
+          />
+          <Button
+            title='Famous'
+            onPress={this.ongo.bind(this)}
+          />
+        </View>
+      </ScrollView>
       </View>
       <FlatList
         data={this.state.dataSource}

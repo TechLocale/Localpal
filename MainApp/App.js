@@ -22,11 +22,11 @@ export default class App extends React.Component {
 
 const AppNavigator = new createStackNavigator({
 
-  
-  // test: { screen: test},
+  BottomNavigator: { screen: HomeScreenTabNavigator},
+
   LoginScreen: { screen: LoginScreen},
   SignUpScreen: { screen: SignUpScreen},
-  BottomNavigator: { screen: HomeScreenTabNavigator},
+  test: { screen: test},
 // testing 123
   CreateEvent: { screen: CreateEvent},
 },

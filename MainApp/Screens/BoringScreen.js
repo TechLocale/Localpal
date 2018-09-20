@@ -7,11 +7,7 @@ export default class BoringScreen extends React.Component {
   static navigationOptions = {
     headerTitle: 'Boring Screen',
     headerRight: (
-      <Button
-        onPress={() => alert('This is a button!')}
-        title="Info"
-        color="#fff"
-      />
+
     ),
   };
   constructor() {
